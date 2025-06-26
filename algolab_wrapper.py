@@ -274,6 +274,22 @@ class AlgoLabWrapper:
             
             if cash_flow and cash_flow.get("success"):
                 logger.info(f"Account info received")
+                # Debug için tüm response'u logla
+                logger.debug(f"CashFlow full response: {cash_flow}")
+                
+                # Eğer content dict değilse veya boşsa, diğer API'leri dene
+                content = cash_flow.get("content", {})
+                if not content or (content.get("t0") == "0.00" and content.get("t1") == "0.00"):
+                    logger.warning("CashFlow returned zero balances, trying alternative methods")
+                    
+                    # GetEquitySubAccounts deneyelim
+                    try:
+                        sub_accounts = self.api.GetEquitySubAccounts()
+                        if sub_accounts and sub_accounts.get("success"):
+                            logger.info(f"SubAccounts info: {sub_accounts}")
+                    except:
+                        pass
+                
                 return cash_flow
             
             return None
@@ -291,8 +307,22 @@ class AlgoLabWrapper:
             
             positions = self.api.GetInstantPosition()
             
-            logger.info(f"Positions received: {len(positions)} open positions")
-            return positions
+            # Debug için veri yapısını görelim
+            logger.debug(f"Positions raw data type: {type(positions)}")
+            
+            if positions and isinstance(positions, dict):
+                if positions.get("success"):
+                    # API başarılı dönüş, content'i kontrol et
+                    content = positions.get("content", [])
+                    logger.info(f"Positions received: {len(content)} open positions")
+                    return content
+                else:
+                    logger.error(f"GetInstantPosition failed: {positions}")
+                    return None
+            else:
+                # Direkt liste dönüyor olabilir
+                logger.info(f"Positions received: {len(positions) if positions else 0} open positions")
+                return positions
             
         except Exception as e:
             logger.error(f"Error getting positions: {str(e)}")

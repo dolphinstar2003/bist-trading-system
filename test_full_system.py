@@ -38,27 +38,63 @@ def test_connection_and_data():
     
     print("✅ Bağlantı başarılı!")
     
-    # 3. Hesap bilgileri
-    print("\n2. Hesap Bilgileri:")
+    # 3. Alt hesapları kontrol et
+    print("\n2. Alt Hesaplar:")
+    try:
+        sub_accounts = wrapper.api.GetEquitySubAccounts()
+        if sub_accounts and sub_accounts.get("success"):
+            accounts = sub_accounts.get("content", [])
+            print(f"   {len(accounts)} alt hesap bulundu")
+            for acc in accounts:
+                if isinstance(acc, dict):
+                    print(f"   - {acc.get('name', 'N/A')}: {acc.get('code', 'N/A')}")
+        time.sleep(5.1)
+    except Exception as e:
+        print(f"   Alt hesap bilgisi alınamadı: {e}")
+    
+    # 4. Hesap bilgileri
+    print("\n3. Hesap Bilgileri:")
     cash_info = wrapper.get_account_info()
     if cash_info and cash_info.get("success"):
         content = cash_info["content"]
         print(f"   T+0: {content.get('t0', '0')} TL")
         print(f"   T+1: {content.get('t1', '0')} TL")
         print(f"   T+2: {content.get('t2', '0')} TL")
+        print(f"\n   Tüm Hesap Detayları:")
+        for key, value in content.items():
+            if value != '0' and value != 0 and value != '0.00':  # Sadece 0 olmayanları göster
+                print(f"   - {key}: {value}")
     
-    # 4. Pozisyonlar
-    print("\n3. Açık Pozisyonlar:")
+    # Rate limit için bekle
+    time.sleep(5.1)
+    
+    # 5. Pozisyonlar
+    print("\n4. Açık Pozisyonlar:")
     positions = wrapper.get_positions()
-    if positions:
-        print(f"   {len(positions)} pozisyon bulundu")
-        for pos in positions[:3]:  # İlk 3 pozisyon
-            print(f"   - {pos.get('code')}: {pos.get('totalstock')} adet @ {pos.get('cost')} TL")
+    if positions and isinstance(positions, list):
+        # Total satırını filtrele
+        real_positions = [p for p in positions if p.get('explanation') != 'total']
+        
+        if real_positions:
+            print(f"   {len(real_positions)} pozisyon bulundu")
+            for i, pos in enumerate(real_positions):
+                if isinstance(pos, dict):
+                    print(f"\n   Pozisyon {i+1}:")
+                    print(f"   - Hisse: {pos.get('code', 'N/A')}")
+                    print(f"   - Adet: {pos.get('totalstock', 0)}")
+                    print(f"   - Maliyet: {pos.get('cost', 0)} TL")
+                    print(f"   - Güncel Fiyat: {pos.get('price', 0)} TL")
+                    print(f"   - Kar/Zarar: {pos.get('profit', 0)} TL")
+        else:
+            print("   Gerçek pozisyon bulunmuyor (sadece total satırı var)")
+    elif positions and isinstance(positions, dict):
+        print(f"   {len(positions)} pozisyon bulundu (dict formatında)")
+        print(f"   Dict keys: {list(positions.keys())}")
     else:
         print("   Açık pozisyon yok")
     
-    # 5. Market data test
-    print("\n4. Market Data Test:")
+    # 6. Market data test
+    print("\n5. Market Data Test:")
     test_symbols = ["THYAO", "GARAN", "AKBNK"]
     
     for symbol in test_symbols:
@@ -85,17 +121,17 @@ def test_connection_and_data():
         
         time.sleep(5.1)  # Rate limit
     
-    # 6. Session refresh testi
-    print("\n5. Session Refresh Testi:")
+    # 7. Session refresh testi
+    print("\n6. Session Refresh Testi:")
     result = wrapper.api.SessionRefresh()
-    if result and result.get("success"):
+    if result:  # SessionRefresh bool döndürüyor
         print("   ✅ Session refresh çalışıyor")
         print("   - Otomatik yenileme 14 dakikada bir yapılacak")
     else:
         print("   ❌ Session refresh başarısız")
     
-    # 7. Order history
-    print("\n6. İşlem Geçmişi:")
+    # 8. Order history
+    print("\n7. İşlem Geçmişi:")
     orders = wrapper.get_equity_order_history()
     if orders:
         print(f"   {len(orders)} işlem bulundu")
