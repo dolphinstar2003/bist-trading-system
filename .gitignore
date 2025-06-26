@@ -1,0 +1,82 @@
+# Virtual Environment
+trading/
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/raw/
+data/processed/
+data/indicators/
+
+# Model files
+ml_models/trained/
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# Reports
+reports/
+*.html
+*.pdf
+
+# Backtest results
+backtest_results/
+
+# Temp files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# API Keys and Config
+config/.env
+config/api_keys.json
+config/credentials.json
+
+# AlgoLab - önemli dosyaları koru
+!algolab/algolab.py
+!algolab/algolab_socket.py
+!algolab/config.py

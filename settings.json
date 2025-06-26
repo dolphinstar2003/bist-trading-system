@@ -1,0 +1,120 @@
+{
+  "project": {
+    "name": "BIST Algoritmik Trading Sistemi",
+    "version": "1.0.0",
+    "description": "BIST için makine öğrenmesi destekli algoritmik trading botu"
+  },
+  "api": {
+    "algolab": {
+      "api_key": "",
+      "username": "",
+      "password": "",
+      "socket_url": "wss://api.algolab.com.tr/socket"
+    }
+  },
+  "database": {
+    "connection": "sqlite:///trading.db",
+    "pool_size": 5,
+    "echo": false
+  },
+  "trading": {
+    "symbols": [
+      "AKBNK", "ARCLK", "ASELS", "BIMAS", "DOHOL", "EKGYO", "EREGL", "FROTO", 
+      "GARAN", "GUBRF", "HALKB", "ISCTR", "KCHOL", "KOZAA", "KOZAL", "KRDMD", 
+      "PETKM", "PGSUS", "SAHOL", "SASA", "SISE", "TAVHL", "TCELL", "THYAO", 
+      "TKFEN", "TOASO", "TUPRS", "VAKBN", "VESTL", "YKBNK",
+      "AEFES", "ALARK", "ALBRK", "ALGYO", "ANHYT", "ANSGR", "AYGAZ", "BAGFS", 
+      "BRSAN", "CCOLA", "CEMTS", "CIMSA", "DOAS", "EGEEN", "ENKAI", "GENIL", 
+      "GLYHO", "GOZDE", "ISDMR", "AKSEN", "AYEN", "ZOREN", "ODAS", "QNBFB", 
+      "KLNMA", "YYAPI", "KUYAS", "ANELE", "TURSG"
+    ],
+    "excluded_symbols": [],
+    "favorite_symbols": ["THYAO", "GARAN", "EREGL", "SISE", "TUPRS"],
+    "timeframes": ["15m", "1h", "4h", "1d"],
+    "min_volume": 1000000,
+    "confidence_threshold": 0.7
+  },
+  "risk_management": {
+    "max_position_size": 0.05,
+    "max_daily_loss": 0.02,
+    "max_drawdown": 0.15,
+    "stop_loss_multiplier": 1.5,
+    "max_open_positions": 5,
+    "correlation_limit": 0.7
+  },
+  "ml_models": {
+    "models": ["xgboost", "random_forest", "lstm", "lightgbm"],
+    "train_test_split": 0.8,
+    "validation_split": 0.2,
+    "feature_count": 50,
+    "ensemble_weights": {
+      "xgboost": 0.3,
+      "random_forest": 0.2,
+      "lstm": 0.3,
+      "lightgbm": 0.2
+    }
+  },
+  "indicators": {
+    "enabled": [
+      "adx_di",
+      "williams_vix_fix",
+      "lorentzian_ml",
+      "macd_mtf",
+      "squeeze_momentum",
+      "supertrend",
+      "trend_vanguard",
+      "wavetrend"
+    ],
+    "parameters": {
+      "adx_period": 14,
+      "rsi_period": 14,
+      "macd_fast": 12,
+      "macd_slow": 26,
+      "macd_signal": 9,
+      "bb_period": 20,
+      "bb_std": 2
+    }
+  },
+  "backtest": {
+    "initial_capital": 1000000,
+    "commission": 0.001,
+    "slippage": 0.0005,
+    "start_date": "2024-01-01",
+    "end_date": "2024-12-31"
+  },
+  "paper_trade": {
+    "enabled": true,
+    "initial_balance": 100000,
+    "reset_daily": false
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/trading.log",
+    "max_size": "10MB",
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "notifications": {
+    "telegram": {
+      "enabled": false,
+      "bot_token": "",
+      "chat_id": ""
+    },
+    "email": {
+      "enabled": false,
+      "smtp_server": "",
+      "smtp_port": 587,
+      "username": "",
+      "password": "",
+      "recipients": []
+    }
+  },
+  "paths": {
+    "data_raw": "data/raw",
+    "data_processed": "data/processed",
+    "data_indicators": "data/indicators",
+    "models": "ml_models/trained",
+    "logs": "logs",
+    "reports": "reports"
+  }
+}
