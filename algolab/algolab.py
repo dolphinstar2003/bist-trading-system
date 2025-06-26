@@ -3,7 +3,7 @@ import requests, hashlib, json, base64, inspect, time
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
 from threading import Thread
-from config import *
+from .config import *
 
 last_request = 0.0
 LOCK = False
@@ -160,14 +160,12 @@ class AlgoLab():
                 print(f"{f}() fonsiyonunda hata oluştu: {e}")
 
     def Portfolio(self):
+        """Portfolio bilgilerini InstantPosition ile al"""
         try:
-            f = inspect.stack()[0][3]
-            endpoint = URL_PORTOLIO
-            payload = {"Subaccount": ""}
-            resp = self.post(endpoint, payload=payload)
-            return self.error_check(resp, f)
+            # Portfolio endpoint'i yok, InstantPosition kullan
+            return self.GetInstantPosition()
         except Exception as e:
-            print(f"{f}() fonsiyonunda hata oluştu: {e}")
+            print(f"Portfolio() fonsiyonunda hata oluştu: {e}")
 
     def GetEquityInfo(self, symbol):
         """
