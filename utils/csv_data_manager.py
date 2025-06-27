@@ -41,6 +41,20 @@ class CSVDataManager:
             # Mevcut veriyi yükle
             if filepath.exists():
                 existing_data = pd.read_csv(filepath, index_col=0, parse_dates=True)
+                
+                # Timezone uyumluluğunu sağla
+                if existing_data.index.tz is None and data.index.tz is not None:
+                    # Existing data tz-naive, new data tz-aware
+                    existing_data.index = existing_data.index.tz_localize('UTC')
+                elif existing_data.index.tz is not None and data.index.tz is None:
+                    # Existing data tz-aware, new data tz-naive
+                    data.index = data.index.tz_localize('UTC')
+                elif existing_data.index.tz is not None and data.index.tz is not None:
+                    # Both tz-aware, convert to same timezone if different
+                    if existing_data.index.tz != data.index.tz:
+                        data.index = data.index.tz_convert('UTC')
+                        existing_data.index = existing_data.index.tz_convert('UTC')
+                
                 # Yeni veriyi ekle (duplicate'leri kaldır)
                 data = pd.concat([existing_data, data])
                 data = data[~data.index.duplicated(keep='last')]
@@ -70,6 +84,10 @@ class CSVDataManager:
             
             # Veriyi yükle
             data = pd.read_csv(filepath, index_col=0, parse_dates=True)
+            
+            # Eğer timezone bilgisi yoksa UTC olarak ayarla
+            if data.index.tz is None:
+                data.index = data.index.tz_localize('UTC')
             
             # Tarih filtreleme
             if start_date:
@@ -110,6 +128,11 @@ class CSVDataManager:
                 return None
             
             data = pd.read_csv(filepath, index_col=0, parse_dates=True)
+            
+            # Eğer timezone bilgisi yoksa UTC olarak ayarla
+            if data.index.tz is None:
+                data.index = data.index.tz_localize('UTC')
+                
             logger.info(f"Indicators loaded: {symbol} {timeframe} - {data.shape}")
             
             return data
@@ -168,6 +191,17 @@ class CSVDataManager:
             
             if filepath.exists():
                 existing_trades = pd.read_csv(filepath, index_col=0, parse_dates=True)
+                
+                # Timezone uyumluluğunu sağla
+                if existing_trades.index.tz is None and trades.index.tz is not None:
+                    existing_trades.index = existing_trades.index.tz_localize('UTC')
+                elif existing_trades.index.tz is not None and trades.index.tz is None:
+                    trades.index = trades.index.tz_localize('UTC')
+                elif existing_trades.index.tz is not None and trades.index.tz is not None:
+                    if existing_trades.index.tz != trades.index.tz:
+                        trades.index = trades.index.tz_convert('UTC')
+                        existing_trades.index = existing_trades.index.tz_convert('UTC')
+                
                 trades = pd.concat([existing_trades, trades])
                 trades = trades[~trades.index.duplicated(keep='last')]
             
@@ -190,6 +224,10 @@ class CSVDataManager:
                 return pd.DataFrame()
             
             trades = pd.read_csv(filepath, index_col=0, parse_dates=True)
+            
+            # Eğer timezone bilgisi yoksa UTC olarak ayarla
+            if trades.index.tz is None:
+                trades.index = trades.index.tz_localize('UTC')
             
             if start_date:
                 trades = trades[trades.index >= start_date]
@@ -250,7 +288,8 @@ class CSVDataManager:
     def cleanup_old_data(self, days: int = 365):
         """Eski verileri temizle"""
         try:
-            cutoff_date = datetime.now() - timedelta(days=days)
+            # UTC timezone ile cutoff date oluştur
+            cutoff_date = pd.Timestamp.now(tz='UTC') - timedelta(days=days)
             cleaned_count = 0
             
             for symbol in self.symbols:
@@ -286,7 +325,7 @@ if __name__ == "__main__":
         'low': np.random.rand(100) * 100,
         'close': np.random.rand(100) * 100,
         'volume': np.random.randint(1000000, 10000000, 100)
-    }, index=pd.date_range('2024-01-01', periods=100, freq='D'))
+    }, index=pd.date_range('2024-01-01', periods=100, freq='D', tz='UTC'))
     
     # Test kaydet
     manager.save_raw_data("THYAO", test_data, "1d")

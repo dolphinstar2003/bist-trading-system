@@ -60,7 +60,21 @@ class AlgoLabWrapper:
         """Varolan session'ı kontrol et"""
         try:
             import os
-            if os.path.exists("data.json"):
+            # Önce .algolab_session.json'ı kontrol et (simple_login.py'den)
+            if os.path.exists('.algolab_session.json'):
+                with open('.algolab_session.json', 'r') as f:
+                    session_data = json.load(f)
+                
+                expires_at = datetime.fromisoformat(session_data['expires_at'])
+                remaining = (expires_at - datetime.now()).total_seconds() / 60
+                
+                if remaining > 0:
+                    self.hash = session_data['hash']
+                    self.token = session_data['token']
+                    logger.info(f"Found existing session ({remaining:.1f} minutes remaining)")
+                    return True
+            # Eski format data.json
+            elif os.path.exists("data.json"):
                 with open("data.json", "r") as f:
                     data = json.load(f)
                     # Session zamanını kontrol et
@@ -71,8 +85,10 @@ class AlgoLabWrapper:
                         self.hash = data.get("hash")
                         self.token = data.get("token")
                         logger.info(f"Found existing session ({15-elapsed:.1f} minutes remaining)")
+                        return True
         except Exception as e:
             logger.debug(f"No valid existing session: {e}")
+        return False
     
     def connect(self, sms_code: Optional[str] = None) -> bool:
         """AlgoLab API'ye bağlan"""
@@ -87,13 +103,22 @@ class AlgoLabWrapper:
                 verbose=True  # Debug için açık
             )
             
-            # Önce kayıtlı session'ı yüklemeyi dene
-            if self.api.load_settings():
+            # Önce manuel session kontrolü
+            if self.hash and self.token:
+                # Session var, API'ye yükle
+                self.api.hash = self.hash
+                self.api.token = self.token
+                self.is_connected = True
+                logger.info("Using existing session from wrapper")
+                return True
+            
+            # API'nin kendi session kontrolü
+            elif self.api.load_settings():
                 # Session yüklendi, geçerli mi kontrol et
                 if self.api.is_alive:
                     self.hash = self.api.hash
                     self.is_connected = True
-                    logger.info("Using existing session")
+                    logger.info("Using existing session from API")
                     return True
                 else:
                     logger.info("Saved session expired, need new login")
@@ -232,9 +257,11 @@ class AlgoLabWrapper:
                 
                 # Tarih sütununu kontrol et
                 if 'date' in df.columns:
-                    df['timestamp'] = pd.to_datetime(df['date'])
+                    # ISO8601 formatını kullan (timezone bilgisi ile)
+                    df['timestamp'] = pd.to_datetime(df['date'], format='ISO8601', utc=True)
                 elif 'timestamp' in df.columns:
-                    df['timestamp'] = pd.to_datetime(df['timestamp'])
+                    # ISO8601 formatını kullan (timezone bilgisi ile)
+                    df['timestamp'] = pd.to_datetime(df['timestamp'], format='ISO8601', utc=True)
                 else:
                     logger.error(f"No date column found for {symbol}")
                     return None
