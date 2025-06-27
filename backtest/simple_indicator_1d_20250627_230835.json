@@ -1,0 +1,44 @@
+{
+  "strategy": "Simple Indicator - 3 Onay",
+  "timeframe": "1d",
+  "initial_capital": 50000,
+  "final_capital": 49899.649999999994,
+  "total_return": -0.0020070000000001163,
+  "total_trades": 3,
+  "primary_indicators": [
+    "supertrend",
+    "squeeze_momentum"
+  ],
+  "confirmation_indicators": [
+    "macd",
+    "wavetrend",
+    "adx_di",
+    "lorentzian"
+  ],
+  "symbol_count": 3,
+  "profitable_symbols": 2,
+  "timestamp": "20250627_230835",
+  "symbol_results": [
+    {
+      "symbol": "ASELS",
+      "trades": 1,
+      "total_pnl": 40.80000000000109,
+      "avg_pnl": 40.80000000000109,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "BIMAS",
+      "trades": 1,
+      "total_pnl": -186.0,
+      "avg_pnl": -186.0,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "EREGL",
+      "trades": 1,
+      "total_pnl": 44.850000000000364,
+      "avg_pnl": 44.850000000000364,
+      "win_rate": 1.0
+    }
+  ]
+}

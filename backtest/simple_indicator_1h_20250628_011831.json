@@ -1,0 +1,261 @@
+{
+  "strategy": "Simple Indicator - 3 Onay",
+  "timeframe": "1h",
+  "initial_capital": 50000,
+  "final_capital": 230224.29422330856,
+  "total_return": 3.6044858844661714,
+  "total_trades": 70,
+  "primary_indicators": [
+    "supertrend",
+    "squeeze_momentum"
+  ],
+  "confirmation_indicators": [
+    "macd",
+    "wavetrend",
+    "adx_di",
+    "lorentzian"
+  ],
+  "symbol_count": 34,
+  "profitable_symbols": 18,
+  "timestamp": "20250628_011831",
+  "symbol_results": [
+    {
+      "symbol": "AEFES",
+      "trades": 2,
+      "total_pnl": 6365.55904006958,
+      "avg_pnl": 3182.77952003479,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "AGESA",
+      "trades": 1,
+      "total_pnl": 6092.19933509827,
+      "avg_pnl": 6092.19933509827,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "AKBNK",
+      "trades": 1,
+      "total_pnl": 29710.30110168457,
+      "avg_pnl": 29710.30110168457,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "AKSEN",
+      "trades": 3,
+      "total_pnl": 4647.20049285889,
+      "avg_pnl": 1549.0668309529635,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "ALGYO",
+      "trades": 2,
+      "total_pnl": -1363.061143875122,
+      "avg_pnl": -681.530571937561,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "ALKIM",
+      "trades": 2,
+      "total_pnl": 693.5512037277258,
+      "avg_pnl": 346.7756018638629,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "ANSGR",
+      "trades": 3,
+      "total_pnl": 6612.300239562988,
+      "avg_pnl": 2204.1000798543296,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "AGHOL",
+      "trades": 2,
+      "total_pnl": -3346.5,
+      "avg_pnl": -1673.25,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "ARCLK",
+      "trades": 1,
+      "total_pnl": -1715.6991882324219,
+      "avg_pnl": -1715.6991882324219,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "ASELS",
+      "trades": 1,
+      "total_pnl": 3570.799758911133,
+      "avg_pnl": 3570.799758911133,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "BIMAS",
+      "trades": 2,
+      "total_pnl": -3372.0,
+      "avg_pnl": -1686.0,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "DOHOL",
+      "trades": 2,
+      "total_pnl": -3406.1796836853027,
+      "avg_pnl": -1703.0898418426514,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "DOAS",
+      "trades": 1,
+      "total_pnl": -1571.6994323730469,
+      "avg_pnl": -1571.6994323730469,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "EGEEN",
+      "trades": 2,
+      "total_pnl": -2303.400390625,
+      "avg_pnl": -1151.7001953125,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "EKGYO",
+      "trades": 2,
+      "total_pnl": 16123.799589157104,
+      "avg_pnl": 8061.899794578552,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "ENKAI",
+      "trades": 3,
+      "total_pnl": 11635.680355072021,
+      "avg_pnl": 3878.5601183573403,
+      "win_rate": 0.6666666666666666
+    },
+    {
+      "symbol": "ERBOS",
+      "trades": 1,
+      "total_pnl": 950.6002960205042,
+      "avg_pnl": 950.6002960205042,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "EREGL",
+      "trades": 1,
+      "total_pnl": -2220.8801841735876,
+      "avg_pnl": -2220.8801841735876,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "FROTO",
+      "trades": 2,
+      "total_pnl": -3861.6003112792932,
+      "avg_pnl": -1930.8001556396466,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "GUBRF",
+      "trades": 3,
+      "total_pnl": -6510.600830078129,
+      "avg_pnl": -2170.2002766927094,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "HALKB",
+      "trades": 2,
+      "total_pnl": 2102.10213470459,
+      "avg_pnl": 1051.051067352295,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "HEKTS",
+      "trades": 3,
+      "total_pnl": -4177.458407402039,
+      "avg_pnl": -1392.4861358006794,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "INDES",
+      "trades": 2,
+      "total_pnl": -3638.5216159820557,
+      "avg_pnl": -1819.2608079910278,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "IPEKE",
+      "trades": 4,
+      "total_pnl": 4929.090705871578,
+      "avg_pnl": 1232.2726764678946,
+      "win_rate": 0.25
+    },
+    {
+      "symbol": "ISCTR",
+      "trades": 4,
+      "total_pnl": -654.3852076530457,
+      "avg_pnl": -163.5963019132614,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "ISDMR",
+      "trades": 3,
+      "total_pnl": 7518.063007354736,
+      "avg_pnl": 2506.0210024515786,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "ISFIN",
+      "trades": 1,
+      "total_pnl": 5107.5,
+      "avg_pnl": 5107.5,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "ISGYO",
+      "trades": 3,
+      "total_pnl": 17043.320369720463,
+      "avg_pnl": 5681.106789906821,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "IZMDC",
+      "trades": 1,
+      "total_pnl": 30108.961486816406,
+      "avg_pnl": 30108.961486816406,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "KARSN",
+      "trades": 2,
+      "total_pnl": -5528.370211601265,
+      "avg_pnl": -2764.1851058006323,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "KARTN",
+      "trades": 2,
+      "total_pnl": -4088.0,
+      "avg_pnl": -2044.0,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "KCHOL",
+      "trades": 2,
+      "total_pnl": -5235.1005859375,
+      "avg_pnl": -2617.55029296875,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "KLRHO",
+      "trades": 3,
+      "total_pnl": 43564.222299575806,
+      "avg_pnl": 14521.407433191935,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "THYAO",
+      "trades": 1,
+      "total_pnl": 36442.5,
+      "avg_pnl": 36442.5,
+      "win_rate": 1.0
+    }
+  ]
+}

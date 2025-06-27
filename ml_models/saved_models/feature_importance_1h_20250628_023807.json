@@ -1,0 +1,392 @@
+{
+  "random_forest": [
+    {
+      "feature": "volatility_50",
+      "importance": 0.10199817424025434
+    },
+    {
+      "feature": "volatility_20",
+      "importance": 0.08591553235899366
+    },
+    {
+      "feature": "support_distance",
+      "importance": 0.06745954850054654
+    },
+    {
+      "feature": "adx_value",
+      "importance": 0.06687243231118498
+    },
+    {
+      "feature": "resistance_distance",
+      "importance": 0.0574993154818256
+    },
+    {
+      "feature": "trend_strength_50",
+      "importance": 0.05593801026643637
+    },
+    {
+      "feature": "price_to_sma50",
+      "importance": 0.05410375266938852
+    },
+    {
+      "feature": "returns_20",
+      "importance": 0.04969376761549832
+    },
+    {
+      "feature": "rsi_30",
+      "importance": 0.04908905595205118
+    },
+    {
+      "feature": "trend_strength_20",
+      "importance": 0.04731919263369345
+    },
+    {
+      "feature": "macd_histogram_value",
+      "importance": 0.04468559328188507
+    },
+    {
+      "feature": "wt_value",
+      "importance": 0.041199972445584876
+    },
+    {
+      "feature": "squeeze_momentum",
+      "importance": 0.039534304927560424
+    },
+    {
+      "feature": "rsi_14",
+      "importance": 0.035898894238972544
+    },
+    {
+      "feature": "di_diff",
+      "importance": 0.03387417584491195
+    },
+    {
+      "feature": "price_to_sma20",
+      "importance": 0.031172621825404798
+    },
+    {
+      "feature": "returns_10",
+      "importance": 0.02923661724478448
+    },
+    {
+      "feature": "returns_5",
+      "importance": 0.024889412914724792
+    },
+    {
+      "feature": "returns_1",
+      "importance": 0.020748200748077622
+    },
+    {
+      "feature": "volume_ratio",
+      "importance": 0.017847612867342738
+    },
+    {
+      "feature": "tv_confidence",
+      "importance": 0.01301778024859464
+    },
+    {
+      "feature": "tv_strength",
+      "importance": 0.01016296909983402
+    },
+    {
+      "feature": "lor_confidence",
+      "importance": 0.009164956272838977
+    },
+    {
+      "feature": "squeeze_on",
+      "importance": 0.00505761432893782
+    },
+    {
+      "feature": "lorentzian_signal",
+      "importance": 0.004237919637154355
+    },
+    {
+      "feature": "candle_pattern",
+      "importance": 0.0016268036691780919
+    },
+    {
+      "feature": "macd_signal",
+      "importance": 0.0009640755002810479
+    },
+    {
+      "feature": "pivot_low",
+      "importance": 0.00036209666847819013
+    },
+    {
+      "feature": "wavetrend_signal",
+      "importance": 0.00022416403523920584
+    },
+    {
+      "feature": "supertrend_signal",
+      "importance": 0.00014463682257669235
+    },
+    {
+      "feature": "pivot_high",
+      "importance": 6.0795347764783784e-05
+    },
+    {
+      "feature": "trend_vanguard_signal",
+      "importance": 0.0
+    }
+  ],
+  "gradient_boosting": [
+    {
+      "feature": "volatility_50",
+      "importance": 0.16633677871087013
+    },
+    {
+      "feature": "volatility_20",
+      "importance": 0.10616669868683831
+    },
+    {
+      "feature": "adx_value",
+      "importance": 0.08214704539026704
+    },
+    {
+      "feature": "macd_histogram_value",
+      "importance": 0.06438910695929376
+    },
+    {
+      "feature": "support_distance",
+      "importance": 0.060083130299568584
+    },
+    {
+      "feature": "resistance_distance",
+      "importance": 0.057570928712549735
+    },
+    {
+      "feature": "squeeze_momentum",
+      "importance": 0.05004205212953745
+    },
+    {
+      "feature": "trend_strength_50",
+      "importance": 0.049691534700974344
+    },
+    {
+      "feature": "rsi_30",
+      "importance": 0.04768829216524232
+    },
+    {
+      "feature": "wt_value",
+      "importance": 0.04576459756125855
+    },
+    {
+      "feature": "di_diff",
+      "importance": 0.039476678760698033
+    },
+    {
+      "feature": "rsi_14",
+      "importance": 0.033442565686964916
+    },
+    {
+      "feature": "price_to_sma50",
+      "importance": 0.029469647743269503
+    },
+    {
+      "feature": "returns_20",
+      "importance": 0.028655392843597444
+    },
+    {
+      "feature": "trend_strength_20",
+      "importance": 0.02646092835302082
+    },
+    {
+      "feature": "returns_5",
+      "importance": 0.02325234805883295
+    },
+    {
+      "feature": "returns_10",
+      "importance": 0.01917886138522238
+    },
+    {
+      "feature": "price_to_sma20",
+      "importance": 0.013409752867090901
+    },
+    {
+      "feature": "volume_ratio",
+      "importance": 0.01302452592074511
+    },
+    {
+      "feature": "tv_confidence",
+      "importance": 0.012927429594273175
+    },
+    {
+      "feature": "returns_1",
+      "importance": 0.010588492921205816
+    },
+    {
+      "feature": "tv_strength",
+      "importance": 0.00539832695528693
+    },
+    {
+      "feature": "squeeze_on",
+      "importance": 0.00404938710986063
+    },
+    {
+      "feature": "lorentzian_signal",
+      "importance": 0.0031286623318896914
+    },
+    {
+      "feature": "lor_confidence",
+      "importance": 0.003126018626332596
+    },
+    {
+      "feature": "pivot_low",
+      "importance": 0.0021548143287356755
+    },
+    {
+      "feature": "macd_signal",
+      "importance": 0.0009284419320211728
+    },
+    {
+      "feature": "pivot_high",
+      "importance": 0.000684186612724882
+    },
+    {
+      "feature": "candle_pattern",
+      "importance": 0.0006592175610561102
+    },
+    {
+      "feature": "wavetrend_signal",
+      "importance": 0.00010415509077101728
+    },
+    {
+      "feature": "supertrend_signal",
+      "importance": 0.0
+    },
+    {
+      "feature": "trend_vanguard_signal",
+      "importance": 0.0
+    }
+  ],
+  "xgboost": [
+    {
+      "feature": "lorentzian_signal",
+      "importance": 0.06536601483821869
+    },
+    {
+      "feature": "tv_strength",
+      "importance": 0.06107267364859581
+    },
+    {
+      "feature": "tv_confidence",
+      "importance": 0.056497201323509216
+    },
+    {
+      "feature": "squeeze_on",
+      "importance": 0.043197959661483765
+    },
+    {
+      "feature": "volatility_50",
+      "importance": 0.04177325218915939
+    },
+    {
+      "feature": "lor_confidence",
+      "importance": 0.039900220930576324
+    },
+    {
+      "feature": "trend_strength_20",
+      "importance": 0.03963974863290787
+    },
+    {
+      "feature": "volatility_20",
+      "importance": 0.03916238248348236
+    },
+    {
+      "feature": "support_distance",
+      "importance": 0.03820183873176575
+    },
+    {
+      "feature": "returns_20",
+      "importance": 0.03661146014928818
+    },
+    {
+      "feature": "resistance_distance",
+      "importance": 0.03657121583819389
+    },
+    {
+      "feature": "adx_value",
+      "importance": 0.03568664938211441
+    },
+    {
+      "feature": "price_to_sma50",
+      "importance": 0.03545784950256348
+    },
+    {
+      "feature": "rsi_30",
+      "importance": 0.03485601395368576
+    },
+    {
+      "feature": "wt_value",
+      "importance": 0.03435235470533371
+    },
+    {
+      "feature": "macd_histogram_value",
+      "importance": 0.034263405948877335
+    },
+    {
+      "feature": "price_to_sma20",
+      "importance": 0.03337298333644867
+    },
+    {
+      "feature": "trend_strength_50",
+      "importance": 0.03295415639877319
+    },
+    {
+      "feature": "di_diff",
+      "importance": 0.032568641006946564
+    },
+    {
+      "feature": "squeeze_momentum",
+      "importance": 0.03243080899119377
+    },
+    {
+      "feature": "rsi_14",
+      "importance": 0.029825663194060326
+    },
+    {
+      "feature": "returns_10",
+      "importance": 0.029171545058488846
+    },
+    {
+      "feature": "returns_5",
+      "importance": 0.02815219573676586
+    },
+    {
+      "feature": "volume_ratio",
+      "importance": 0.024890733882784843
+    },
+    {
+      "feature": "macd_signal",
+      "importance": 0.024006035178899765
+    },
+    {
+      "feature": "candle_pattern",
+      "importance": 0.023318786174058914
+    },
+    {
+      "feature": "returns_1",
+      "importance": 0.022501809522509575
+    },
+    {
+      "feature": "wavetrend_signal",
+      "importance": 0.014196430332958698
+    },
+    {
+      "feature": "supertrend_signal",
+      "importance": 0.0
+    },
+    {
+      "feature": "trend_vanguard_signal",
+      "importance": 0.0
+    },
+    {
+      "feature": "pivot_high",
+      "importance": 0.0
+    },
+    {
+      "feature": "pivot_low",
+      "importance": 0.0
+    }
+  ]
+}

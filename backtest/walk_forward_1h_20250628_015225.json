@@ -1,0 +1,18 @@
+{
+  "strategy": "Walk-Forward Dynamic Selection",
+  "timeframe": "1h",
+  "initial_capital": 50000,
+  "final_capital": 77077.71762442807,
+  "total_return": 0.5415543524885614,
+  "max_drawdown": 0.2688555322702361,
+  "total_trades": 1898,
+  "win_rate": 0.43466807165437304,
+  "scoring_weights": {
+    "signal_strength": 0.3,
+    "momentum": 0.2,
+    "volume": 0.15,
+    "volatility": 0.15,
+    "trend_alignment": 0.2
+  },
+  "timestamp": "20250628_015225"
+}

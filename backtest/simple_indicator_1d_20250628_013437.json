@@ -1,0 +1,191 @@
+{
+  "strategy": "Simple Indicator - 3 Onay",
+  "timeframe": "1d",
+  "initial_capital": 50000,
+  "final_capital": 275618.3752117157,
+  "total_return": 4.512367504234314,
+  "total_trades": 28,
+  "primary_indicators": [
+    "supertrend",
+    "squeeze_momentum"
+  ],
+  "confirmation_indicators": [
+    "macd",
+    "wavetrend",
+    "adx_di",
+    "lorentzian"
+  ],
+  "symbol_count": 24,
+  "profitable_symbols": 6,
+  "timestamp": "20250628_013437",
+  "symbol_results": [
+    {
+      "symbol": "AGESA",
+      "trades": 1,
+      "total_pnl": -508.6799011230469,
+      "avg_pnl": -508.6799011230469,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "AKSEN",
+      "trades": 1,
+      "total_pnl": 17937.230063915253,
+      "avg_pnl": 17937.230063915253,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "AGHOL",
+      "trades": 1,
+      "total_pnl": -583.0,
+      "avg_pnl": -583.0,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "ARCLK",
+      "trades": 1,
+      "total_pnl": 159.6001739501944,
+      "avg_pnl": 159.6001739501944,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "DOAS",
+      "trades": 1,
+      "total_pnl": -698.5360107421875,
+      "avg_pnl": -698.5360107421875,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "ECILC",
+      "trades": 1,
+      "total_pnl": -580.126202583313,
+      "avg_pnl": -580.126202583313,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "EGEEN",
+      "trades": 2,
+      "total_pnl": -3048.2763671875,
+      "avg_pnl": -1524.13818359375,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "ERBOS",
+      "trades": 1,
+      "total_pnl": 24183.019006729126,
+      "avg_pnl": 24183.019006729126,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "EREGL",
+      "trades": 1,
+      "total_pnl": 40622.457750320435,
+      "avg_pnl": 40622.457750320435,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "GARAN",
+      "trades": 3,
+      "total_pnl": -1821.5692634582574,
+      "avg_pnl": -607.1897544860858,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "GESAN",
+      "trades": 1,
+      "total_pnl": -1025.439962387085,
+      "avg_pnl": -1025.439962387085,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "GUBRF",
+      "trades": 2,
+      "total_pnl": -2403.601203918457,
+      "avg_pnl": -1201.8006019592285,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "HEKTS",
+      "trades": 1,
+      "total_pnl": -1024.3634061813354,
+      "avg_pnl": -1024.3634061813354,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "INDES",
+      "trades": 1,
+      "total_pnl": -1002.1003475189209,
+      "avg_pnl": -1002.1003475189209,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "ISGYO",
+      "trades": 1,
+      "total_pnl": -1220.7004776000977,
+      "avg_pnl": -1220.7004776000977,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "IZMDC",
+      "trades": 1,
+      "total_pnl": -1475.0029778480548,
+      "avg_pnl": -1475.0029778480548,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "KARSN",
+      "trades": 1,
+      "total_pnl": -1148.5503089427948,
+      "avg_pnl": -1148.5503089427948,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "KONYA",
+      "trades": 1,
+      "total_pnl": -900.0,
+      "avg_pnl": -900.0,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "KOZAA",
+      "trades": 1,
+      "total_pnl": -953.2502365112305,
+      "avg_pnl": -953.2502365112305,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "KRDMD",
+      "trades": 1,
+      "total_pnl": -943.3995246887207,
+      "avg_pnl": -943.3995246887207,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "PETKM",
+      "trades": 1,
+      "total_pnl": -1125.7792348861694,
+      "avg_pnl": -1125.7792348861694,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "SAHOL",
+      "trades": 1,
+      "total_pnl": 52759.478058815,
+      "avg_pnl": 52759.478058815,
+      "win_rate": 1.0
+    },
+    {
+      "symbol": "SNGYO",
+      "trades": 1,
+      "total_pnl": -1638.2248842716217,
+      "avg_pnl": -1638.2248842716217,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "TAVHL",
+      "trades": 1,
+      "total_pnl": 112057.19046783447,
+      "avg_pnl": 112057.19046783447,
+      "win_rate": 1.0
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+timestamp,prediction,confidence,model_type,proba_class_0,proba_class_1,signal,signal_strength
+2025-06-27 18:00:00+00:00,0,0.5605711629005046,classification,0.5605711629005046,0.4394288370994955,0,0.0

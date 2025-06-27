@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-06-28T02:53:39.103601",
+  "timeframe": "1d",
+  "total_symbols_analyzed": 20,
+  "active_signals": 0,
+  "selected_signals": 0,
+  "signals": [],
+  "summary": {
+    "buy_signals": 0,
+    "sell_signals": 0,
+    "avg_confidence": 0,
+    "top_opportunity": null
+  }
+}

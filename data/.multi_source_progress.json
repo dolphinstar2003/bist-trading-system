@@ -1,0 +1,402 @@
+{
+  "AEFES": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:13.168790",
+    "bars": 6467,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "AGESA": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:14.207622",
+    "bars": 2709,
+    "timeframes_saved": 4,
+    "date_range": "2014-11-13 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "AKSEN": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:16.415956",
+    "bars": 3878,
+    "timeframes_saved": 4,
+    "date_range": "2010-05-21 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "AKSA": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:18.515737",
+    "bars": 6467,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ALGYO": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:20.400112",
+    "bars": 6467,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ALKIM": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:21.972448",
+    "bars": 6256,
+    "timeframes_saved": 4,
+    "date_range": "2001-03-01 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ANSGR": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:23.897634",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "AGHOL": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:25.630451",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "DOAS": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:27.447339",
+    "bars": 5395,
+    "timeframes_saved": 4,
+    "date_range": "2004-06-17 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ECILC": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:29.377009",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "EGEEN": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:31.165936",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ENKAI": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:33.531485",
+    "bars": 5888,
+    "timeframes_saved": 4,
+    "date_range": "2002-07-29 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ERBOS": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:35.635635",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "FROTO": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:40.272395",
+    "bars": 6467,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "GESAN": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:41.017176",
+    "bars": 965,
+    "timeframes_saved": 4,
+    "date_range": "2021-08-19 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "GUBRF": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:43.215367",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "HALKB": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:44.850141",
+    "bars": 4645,
+    "timeframes_saved": 4,
+    "date_range": "2007-05-11 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "HEKTS": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:46.887608",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "INDES": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:48.791795",
+    "bars": 5388,
+    "timeframes_saved": 4,
+    "date_range": "2004-06-28 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "IPEKE": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:50.566345",
+    "bars": 6270,
+    "timeframes_saved": 4,
+    "date_range": "2001-02-08 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ISCTR": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:51.921983",
+    "bars": 4483,
+    "timeframes_saved": 4,
+    "date_range": "2007-12-31 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ISDMR": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:53.109177",
+    "bars": 2352,
+    "timeframes_saved": 4,
+    "date_range": "2016-03-28 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ISFIN": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:55.040491",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ISGYO": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:56.691181",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "IZMDC": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:25:58.373754",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KARSN": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:00.131020",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KARTN": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:01.963005",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KCHOL": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:03.704593",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KLRHO": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:04.247392",
+    "bars": 734,
+    "timeframes_saved": 4,
+    "date_range": "2022-07-07 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KONTR": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:04.995042",
+    "bars": 1173,
+    "timeframes_saved": 4,
+    "date_range": "2020-10-19 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KONYA": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:06.499491",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KOZAA": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:08.253070",
+    "bars": 5724,
+    "timeframes_saved": 4,
+    "date_range": "2003-03-14 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KOZAL": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:09.587136",
+    "bars": 3948,
+    "timeframes_saved": 4,
+    "date_range": "2010-02-12 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "KRDMD": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:11.286334",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "MAVI": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:12.114342",
+    "bars": 2035,
+    "timeframes_saved": 4,
+    "date_range": "2017-06-15 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "MPARK": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:12.809329",
+    "bars": 1861,
+    "timeframes_saved": 4,
+    "date_range": "2018-02-13 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "ODAS": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:13.820387",
+    "bars": 3096,
+    "timeframes_saved": 4,
+    "date_range": "2013-05-21 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "OTKAR": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:15.526720",
+    "bars": 6464,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "OYAKC": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:17.318116",
+    "bars": 6467,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "PETKM": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:19.064090",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "PGSUS": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:20.480777",
+    "bars": 3053,
+    "timeframes_saved": 4,
+    "date_range": "2013-04-26 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "QUAGR": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:21.118963",
+    "bars": 1050,
+    "timeframes_saved": 4,
+    "date_range": "2021-04-09 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "SAHOL": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:22.747220",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "SASA": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:24.706463",
+    "bars": 6467,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "SISE": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:26.757180",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "SKBNK": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:28.553838",
+    "bars": 6466,
+    "timeframes_saved": 4,
+    "date_range": "2000-05-10 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "SMRTG": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:29.191128",
+    "bars": 812,
+    "timeframes_saved": 4,
+    "date_range": "2022-03-24 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "SNGYO": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:30.369845",
+    "bars": 4616,
+    "timeframes_saved": 4,
+    "date_range": "2007-06-22 00:00:00+03:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "TAVHL": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:31.846624",
+    "bars": 4698,
+    "timeframes_saved": 4,
+    "date_range": "2007-02-26 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  },
+  "TKFEN": {
+    "completed": true,
+    "source": "yahoo",
+    "timestamp": "2025-06-27T23:26:33.477114",
+    "bars": 4507,
+    "timeframes_saved": 4,
+    "date_range": "2007-11-23 00:00:00+02:00 to 2025-06-27 00:00:00+03:00"
+  }
+}

@@ -1,0 +1,365 @@
+{
+  "strategy": "S\u0131ral\u0131 4 Faz",
+  "timeframe": "1d",
+  "initial_capital": 50000,
+  "final_capital": 25884859123.920837,
+  "total_return": 517696.18247841677,
+  "total_trades": 1284,
+  "symbol_results": [
+    {
+      "symbol": "AEFES",
+      "trades": 21,
+      "total_pnl": 11734.203785777092,
+      "win_rate": 0.6666666666666666
+    },
+    {
+      "symbol": "AGESA",
+      "trades": 19,
+      "total_pnl": 7792.683773994448,
+      "win_rate": 0.3684210526315789
+    },
+    {
+      "symbol": "AKBNK",
+      "trades": 29,
+      "total_pnl": 16951.200960636143,
+      "win_rate": 0.5517241379310345
+    },
+    {
+      "symbol": "AKSEN",
+      "trades": 24,
+      "total_pnl": 13525.249881744383,
+      "win_rate": 0.4166666666666667
+    },
+    {
+      "symbol": "AKSA",
+      "trades": 18,
+      "total_pnl": 34947.47131848335,
+      "win_rate": 0.6111111111111112
+    },
+    {
+      "symbol": "ALGYO",
+      "trades": 20,
+      "total_pnl": 31393.061440229412,
+      "win_rate": 0.65
+    },
+    {
+      "symbol": "ALKIM",
+      "trades": 27,
+      "total_pnl": -3797.8974666595477,
+      "win_rate": 0.37037037037037035
+    },
+    {
+      "symbol": "ANSGR",
+      "trades": 21,
+      "total_pnl": 68272.6990032196,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "AGHOL",
+      "trades": 22,
+      "total_pnl": 70425.6347999573,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "ARCLK",
+      "trades": 17,
+      "total_pnl": 58142.40315055847,
+      "win_rate": 0.6470588235294118
+    },
+    {
+      "symbol": "ASELS",
+      "trades": 19,
+      "total_pnl": 125143.1699256897,
+      "win_rate": 0.5789473684210527
+    },
+    {
+      "symbol": "BIMAS",
+      "trades": 23,
+      "total_pnl": 73106.99227523804,
+      "win_rate": 0.34782608695652173
+    },
+    {
+      "symbol": "DOHOL",
+      "trades": 22,
+      "total_pnl": 120179.64810681342,
+      "win_rate": 0.6363636363636364
+    },
+    {
+      "symbol": "DOAS",
+      "trades": 20,
+      "total_pnl": 267776.9126672745,
+      "win_rate": 0.45
+    },
+    {
+      "symbol": "ECILC",
+      "trades": 25,
+      "total_pnl": 213025.7135739326,
+      "win_rate": 0.52
+    },
+    {
+      "symbol": "EGEEN",
+      "trades": 21,
+      "total_pnl": 414571.0018310547,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "EKGYO",
+      "trades": 25,
+      "total_pnl": 317090.6482937336,
+      "win_rate": 0.56
+    },
+    {
+      "symbol": "ENKAI",
+      "trades": 19,
+      "total_pnl": 76868.21384191513,
+      "win_rate": 0.47368421052631576
+    },
+    {
+      "symbol": "ERBOS",
+      "trades": 21,
+      "total_pnl": 334346.7230014799,
+      "win_rate": 0.42857142857142855
+    },
+    {
+      "symbol": "EREGL",
+      "trades": 22,
+      "total_pnl": 251916.39118623754,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "FROTO",
+      "trades": 24,
+      "total_pnl": 428457.4876680372,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "GARAN",
+      "trades": 22,
+      "total_pnl": 1004467.3590517044,
+      "win_rate": 0.5909090909090909
+    },
+    {
+      "symbol": "GESAN",
+      "trades": 15,
+      "total_pnl": 4129779.331597328,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "GUBRF",
+      "trades": 15,
+      "total_pnl": 3102675.0486183167,
+      "win_rate": 0.4
+    },
+    {
+      "symbol": "HALKB",
+      "trades": 21,
+      "total_pnl": 2003643.8151807785,
+      "win_rate": 0.5714285714285714
+    },
+    {
+      "symbol": "HEKTS",
+      "trades": 21,
+      "total_pnl": 11236929.41615653,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "INDES",
+      "trades": 24,
+      "total_pnl": 2034806.9524863958,
+      "win_rate": 0.4583333333333333
+    },
+    {
+      "symbol": "IPEKE",
+      "trades": 27,
+      "total_pnl": -220606.52481937455,
+      "win_rate": 0.25925925925925924
+    },
+    {
+      "symbol": "ISCTR",
+      "trades": 24,
+      "total_pnl": 7650880.8284089565,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "ISDMR",
+      "trades": 21,
+      "total_pnl": 7139677.953846454,
+      "win_rate": 0.5714285714285714
+    },
+    {
+      "symbol": "ISFIN",
+      "trades": 19,
+      "total_pnl": 7595513.296926021,
+      "win_rate": 0.3684210526315789
+    },
+    {
+      "symbol": "ISGYO",
+      "trades": 26,
+      "total_pnl": 21446555.481179483,
+      "win_rate": 0.46153846153846156
+    },
+    {
+      "symbol": "IZMDC",
+      "trades": 19,
+      "total_pnl": 10798939.539546728,
+      "win_rate": 0.2631578947368421
+    },
+    {
+      "symbol": "KARSN",
+      "trades": 21,
+      "total_pnl": 8880530.467351194,
+      "win_rate": 0.47619047619047616
+    },
+    {
+      "symbol": "KARTN",
+      "trades": 19,
+      "total_pnl": 35206527.464422226,
+      "win_rate": 0.47368421052631576
+    },
+    {
+      "symbol": "KCHOL",
+      "trades": 28,
+      "total_pnl": 18643110.54035854,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "KLRHO",
+      "trades": 11,
+      "total_pnl": 44360744.33151531,
+      "win_rate": 0.36363636363636365
+    },
+    {
+      "symbol": "KONTR",
+      "trades": 17,
+      "total_pnl": 108603807.06260324,
+      "win_rate": 0.35294117647058826
+    },
+    {
+      "symbol": "KONYA",
+      "trades": 18,
+      "total_pnl": 150377989.73638916,
+      "win_rate": 0.6111111111111112
+    },
+    {
+      "symbol": "KOZAA",
+      "trades": 24,
+      "total_pnl": 23025138.808643363,
+      "win_rate": 0.4166666666666667
+    },
+    {
+      "symbol": "KOZAL",
+      "trades": 29,
+      "total_pnl": 4591494.133933097,
+      "win_rate": 0.3793103448275862
+    },
+    {
+      "symbol": "KRDMD",
+      "trades": 19,
+      "total_pnl": 90348917.58444689,
+      "win_rate": 0.631578947368421
+    },
+    {
+      "symbol": "MAVI",
+      "trades": 19,
+      "total_pnl": 228505381.64036676,
+      "win_rate": 0.631578947368421
+    },
+    {
+      "symbol": "MPARK",
+      "trades": 21,
+      "total_pnl": 117462410.51341057,
+      "win_rate": 0.42857142857142855
+    },
+    {
+      "symbol": "ODAS",
+      "trades": 19,
+      "total_pnl": 294584201.82397556,
+      "win_rate": 0.47368421052631576
+    },
+    {
+      "symbol": "OTKAR",
+      "trades": 24,
+      "total_pnl": 149624748.0650292,
+      "win_rate": 0.4166666666666667
+    },
+    {
+      "symbol": "OYAKC",
+      "trades": 23,
+      "total_pnl": 299975340.0999271,
+      "win_rate": 0.5217391304347826
+    },
+    {
+      "symbol": "PETKM",
+      "trades": 20,
+      "total_pnl": 187793588.32047427,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "PGSUS",
+      "trades": 26,
+      "total_pnl": 421796205.55776894,
+      "win_rate": 0.4230769230769231
+    },
+    {
+      "symbol": "QUAGR",
+      "trades": 16,
+      "total_pnl": 749706031.6983182,
+      "win_rate": 0.4375
+    },
+    {
+      "symbol": "SAHOL",
+      "trades": 25,
+      "total_pnl": 589135177.3713787,
+      "win_rate": 0.64
+    },
+    {
+      "symbol": "SASA",
+      "trades": 24,
+      "total_pnl": 1423842195.3974423,
+      "win_rate": 0.4583333333333333
+    },
+    {
+      "symbol": "SISE",
+      "trades": 24,
+      "total_pnl": 596781547.1126788,
+      "win_rate": 0.375
+    },
+    {
+      "symbol": "SKBNK",
+      "trades": 26,
+      "total_pnl": 1678442570.488465,
+      "win_rate": 0.2692307692307692
+    },
+    {
+      "symbol": "SMRTG",
+      "trades": 15,
+      "total_pnl": 3688348963.4602203,
+      "win_rate": 0.4
+    },
+    {
+      "symbol": "SNGYO",
+      "trades": 30,
+      "total_pnl": 4582159469.491569,
+      "win_rate": 0.4666666666666667
+    },
+    {
+      "symbol": "TAVHL",
+      "trades": 27,
+      "total_pnl": 2787409086.1914215,
+      "win_rate": 0.5185185185185185
+    },
+    {
+      "symbol": "THYAO",
+      "trades": 19,
+      "total_pnl": 4156642234.809498,
+      "win_rate": 0.47368421052631576
+    },
+    {
+      "symbol": "TKFEN",
+      "trades": 27,
+      "total_pnl": 3367706579.638021,
+      "win_rate": 0.48148148148148145
+    }
+  ],
+  "timestamp": "20250628_013402"
+}

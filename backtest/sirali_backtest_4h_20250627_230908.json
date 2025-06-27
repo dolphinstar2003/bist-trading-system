@@ -1,0 +1,17 @@
+{
+  "strategy": "S\u0131ral\u0131 4 Faz",
+  "timeframe": "4h",
+  "initial_capital": 50000,
+  "final_capital": 50005.7,
+  "total_return": 0.0001139999999999418,
+  "total_trades": 3,
+  "symbol_results": [
+    {
+      "symbol": "ASELS",
+      "trades": 3,
+      "total_pnl": 5.700000000001637,
+      "win_rate": 0.3333333333333333
+    }
+  ],
+  "timestamp": "20250627_230908"
+}

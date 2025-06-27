@@ -1,0 +1,65 @@
+{
+  "strategy": "S\u0131ral\u0131 4 Faz",
+  "timeframe": "15m",
+  "initial_capital": 50000,
+  "final_capital": 50553.44000000001,
+  "total_return": 0.011068800000000193,
+  "total_trades": 29,
+  "symbol_results": [
+    {
+      "symbol": "AKBNK",
+      "trades": 4,
+      "total_pnl": 282.449999999998,
+      "win_rate": 0.5
+    },
+    {
+      "symbol": "ARCLK",
+      "trades": 5,
+      "total_pnl": 264.59999999999945,
+      "win_rate": 0.4
+    },
+    {
+      "symbol": "ASELS",
+      "trades": 5,
+      "total_pnl": 42.600000000000364,
+      "win_rate": 0.6
+    },
+    {
+      "symbol": "BIMAS",
+      "trades": 3,
+      "total_pnl": 69.75,
+      "win_rate": 0.3333333333333333
+    },
+    {
+      "symbol": "DOHOL",
+      "trades": 4,
+      "total_pnl": 114.48000000000047,
+      "win_rate": 0.75
+    },
+    {
+      "symbol": "EKGYO",
+      "trades": 3,
+      "total_pnl": 636.96,
+      "win_rate": 0.6666666666666666
+    },
+    {
+      "symbol": "EREGL",
+      "trades": 3,
+      "total_pnl": -28.019999999999527,
+      "win_rate": 0.6666666666666666
+    },
+    {
+      "symbol": "GARAN",
+      "trades": 1,
+      "total_pnl": -414.1800000000003,
+      "win_rate": 0.0
+    },
+    {
+      "symbol": "THYAO",
+      "trades": 1,
+      "total_pnl": -415.1999999999989,
+      "win_rate": 0.0
+    }
+  ],
+  "timestamp": "20250627_230958"
+}

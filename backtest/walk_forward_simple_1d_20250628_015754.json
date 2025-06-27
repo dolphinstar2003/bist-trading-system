@@ -1,0 +1,29 @@
+{
+  "strategy": "Walk-Forward Simple (3 Confirmation)",
+  "timeframe": "1d",
+  "initial_capital": 50000,
+  "final_capital": 58442.76619866705,
+  "total_return": 0.168855323973341,
+  "max_drawdown": 0.07490428825863539,
+  "total_trades": 61,
+  "win_rate": 0.39344262295081966,
+  "confirmation_performance": {
+    "macd": {
+      "trades": 10,
+      "wins": 3
+    },
+    "wavetrend": {
+      "trades": 0,
+      "wins": 0
+    },
+    "adx_di": {
+      "trades": 6,
+      "wins": 3
+    },
+    "lorentzian": {
+      "trades": 49,
+      "wins": 19
+    }
+  },
+  "timestamp": "20250628_015754"
+}

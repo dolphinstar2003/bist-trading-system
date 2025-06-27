@@ -43,13 +43,17 @@ class CSVDataManager:
                 existing_data = pd.read_csv(filepath, index_col=0, parse_dates=True)
                 
                 # Timezone uyumluluğunu sağla
-                if existing_data.index.tz is None and data.index.tz is not None:
+                # hasattr ile tz attribute'ünün varlığını kontrol et
+                has_existing_tz = hasattr(existing_data.index, 'tz') and existing_data.index.tz is not None
+                has_data_tz = hasattr(data.index, 'tz') and data.index.tz is not None
+                
+                if not has_existing_tz and has_data_tz:
                     # Existing data tz-naive, new data tz-aware
                     existing_data.index = existing_data.index.tz_localize('UTC')
-                elif existing_data.index.tz is not None and data.index.tz is None:
+                elif has_existing_tz and not has_data_tz:
                     # Existing data tz-aware, new data tz-naive
                     data.index = data.index.tz_localize('UTC')
-                elif existing_data.index.tz is not None and data.index.tz is not None:
+                elif has_existing_tz and has_data_tz:
                     # Both tz-aware, convert to same timezone if different
                     if existing_data.index.tz != data.index.tz:
                         data.index = data.index.tz_convert('UTC')
@@ -86,8 +90,14 @@ class CSVDataManager:
             data = pd.read_csv(filepath, index_col=0, parse_dates=True)
             
             # Eğer timezone bilgisi yoksa UTC olarak ayarla
-            if data.index.tz is None:
-                data.index = data.index.tz_localize('UTC')
+            try:
+                if hasattr(data.index, 'tz') and data.index.tz is None:
+                    data.index = data.index.tz_localize('UTC')
+            except AttributeError:
+                # Index datetime değilse, önce datetime'a çevir
+                data.index = pd.to_datetime(data.index)
+                if data.index.tz is None:
+                    data.index = data.index.tz_localize('UTC')
             
             # Tarih filtreleme
             if start_date:
@@ -130,8 +140,14 @@ class CSVDataManager:
             data = pd.read_csv(filepath, index_col=0, parse_dates=True)
             
             # Eğer timezone bilgisi yoksa UTC olarak ayarla
-            if data.index.tz is None:
-                data.index = data.index.tz_localize('UTC')
+            try:
+                if hasattr(data.index, 'tz') and data.index.tz is None:
+                    data.index = data.index.tz_localize('UTC')
+            except AttributeError:
+                # Index datetime değilse, önce datetime'a çevir
+                data.index = pd.to_datetime(data.index)
+                if data.index.tz is None:
+                    data.index = data.index.tz_localize('UTC')
                 
             logger.info(f"Indicators loaded: {symbol} {timeframe} - {data.shape}")
             
@@ -139,6 +155,28 @@ class CSVDataManager:
             
         except Exception as e:
             logger.error(f"Error loading indicators for {symbol}: {str(e)}")
+            return None
+    
+    def load_indicator_data(self, symbol: str, timeframe: str, indicator_name: str) -> Optional[pd.DataFrame]:
+        """Tek bir indikatör dosyasını yükle"""
+        file_path = self.indicators_data_path / f"{symbol}_{timeframe}_{indicator_name}.csv"
+        
+        if not file_path.exists():
+            logger.debug(f"Indicator file not found: {file_path.name}")
+            return None
+        
+        try:
+            df = pd.read_csv(file_path, index_col=0, parse_dates=True)
+            
+            # Eğer timezone bilgisi yoksa UTC olarak ayarla
+            if hasattr(df.index, 'tz') and df.index.tz is None:
+                df.index = df.index.tz_localize('UTC')
+            
+            logger.debug(f"Indicator loaded: {symbol} {timeframe} {indicator_name} - Shape: {df.shape}")
+            return df
+            
+        except Exception as e:
+            logger.error(f"Error loading indicator {indicator_name} for {symbol}: {str(e)}")
             return None
     
     def combine_data(self, symbol: str, timeframe: str = "1d") -> Optional[pd.DataFrame]:

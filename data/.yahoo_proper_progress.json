@@ -1,0 +1,651 @@
+{
+  "AEFES": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:49:45.747818",
+    "timeframes": {
+      "1d": true,
+      "4h": false,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 3
+  },
+  "AGESA": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:49:53.420474",
+    "timeframes": {
+      "1d": true,
+      "4h": false,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 3
+  },
+  "AKBNK": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:50:00.898399",
+    "timeframes": {
+      "1d": true,
+      "4h": false,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 3
+  },
+  "AKSEN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:50:08.075931",
+    "timeframes": {
+      "1d": true,
+      "4h": false,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 3
+  },
+  "AKSA": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:51:16.304049",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ALGYO": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:51:24.452886",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ALKIM": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:51:32.951794",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ANSGR": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:51:40.025709",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "AGHOL": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:51:47.008723",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ARCLK": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:51:54.661058",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ASELS": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:02.648516",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "BIMAS": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:09.706114",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "DOHOL": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:16.880448",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "DOAS": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:24.953614",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ECILC": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:32.241697",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "EGEEN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:39.295343",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "EKGYO": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:47.000592",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ENKAI": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:52:54.902651",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ERBOS": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:02.139825",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "EREGL": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:09.998536",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "FROTO": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:17.929373",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "GARAN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:25.386032",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "GESAN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:32.862814",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "GUBRF": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:39.928090",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "HALKB": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:47.097549",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "HEKTS": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:53:57.238977",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "INDES": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:07.268068",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "IPEKE": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:14.719249",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ISCTR": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:22.932097",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ISDMR": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:29.982246",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ISFIN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:37.270442",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ISGYO": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:44.359081",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "IZMDC": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:51.504014",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KARSN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:54:59.602305",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KARTN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:55:06.746839",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KCHOL": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:55:13.909213",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KLRHO": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:55:21.513854",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KONTR": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:55:29.809312",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KONYA": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:55:37.378979",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KOZAA": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:55:44.493903",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KOZAL": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:55:52.530651",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "KRDMD": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:56:13.076589",
+    "timeframes": {
+      "1d": true,
+      "4h": false,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 3
+  },
+  "MAVI": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:56:21.627940",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "MPARK": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:56:28.897820",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "ODAS": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:56:36.959963",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "OTKAR": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:56:44.518058",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "OYAKC": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:56:52.663704",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "PETKM": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:56:59.745600",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "PGSUS": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:57:07.853547",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "QUAGR": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:57:15.788823",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "SAHOL": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:57:22.834966",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "SASA": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:57:31.762134",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "SISE": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:57:39.031834",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "SKBNK": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:57:46.821060",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "SMRTG": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:57:55.179194",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "SNGYO": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:58:03.302013",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "TAVHL": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:58:10.224163",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "THYAO": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:58:17.326721",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  },
+  "TKFEN": {
+    "completed": true,
+    "timestamp": "2025-06-27T23:58:24.496616",
+    "timeframes": {
+      "1d": true,
+      "4h": true,
+      "1h": true,
+      "15m": true
+    },
+    "success_count": 4
+  }
+}
