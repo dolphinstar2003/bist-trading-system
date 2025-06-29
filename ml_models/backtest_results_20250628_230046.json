@@ -1,0 +1,34 @@
+{
+  "period": {
+    "start": "2024-10-22 00:00:00+00:00",
+    "end": "2025-06-26 00:00:00+00:00",
+    "days": 169
+  },
+  "returns": {
+    "total_return": -0.025648899400309164,
+    "monthly_return": -0.0032235205751782736,
+    "annualized_return": -0.03824569614720656,
+    "sharpe_ratio": -0.32981896760201374,
+    "max_drawdown": -0.08248583686149086
+  },
+  "trades": {
+    "total_trades": 192,
+    "win_rate": 0.6302083333333334,
+    "avg_win": 232.85247368527246,
+    "avg_loss": -433.9453129066681,
+    "profit_factor": 0.9144771867646395,
+    "avg_trade_pnl": -13.723791148205592,
+    "avg_holding_days": 6.432291666666667,
+    "exit_reasons": {
+      "TARGET_REACHED": 120,
+      "STOP_LOSS": 67,
+      "END_OF_BACKTEST": 5
+    }
+  },
+  "capital": {
+    "initial": 100000,
+    "final": 97435.11005996908,
+    "max_value": 104426.53845256046,
+    "min_value": 95812.82803775232
+  }
+}

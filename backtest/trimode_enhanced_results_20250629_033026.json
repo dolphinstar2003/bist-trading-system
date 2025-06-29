@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "initial_capital": 100000,
+    "final_capital": 55199.5527695184,
+    "total_return": -0.448004472304816,
+    "annualized_return": -0.5877184962848152,
+    "monthly_return": -0.055520990996778,
+    "sharpe_ratio": -9.165639909762682,
+    "max_drawdown": -0.43333002824335454,
+    "total_days": 169
+  },
+  "trades": {
+    "total_trades": 230,
+    "win_rate": 0.2608695652173913,
+    "avg_win": 242.7825068983912,
+    "avg_loss": -476.6207055248541,
+    "profit_factor": 0.17978225162676775
+  },
+  "partial_exits": {
+    "count": 60,
+    "total_pnl": 21665.25005472589,
+    "avg_pnl": 361.08750091209816,
+    "avg_exit_pct": 0.21262458459918948
+  },
+  "mode_analysis": {
+    "distribution": {
+      "DEFENSIVE": 162,
+      "BALANCED": 7
+    },
+    "performance": {
+      "BALANCED": {
+        "days": 7,
+        "avg_return": -0.025093409459118716,
+        "total_return": -0.14143745186734835,
+        "volatility": 0.0023082852497638795
+      },
+      "DEFENSIVE": {
+        "days": 162,
+        "avg_return": -0.002715927526067336,
+        "total_return": -0.35739053669167475,
+        "volatility": 0.004503894112066307
+      }
+    }
+  },
+  "enhancements": {
+    "rvol_filter_usage": 0.4444444444444444,
+    "optimal_ema_symbols": 32,
+    "trailing_stops_hit": 168
+  }
+}

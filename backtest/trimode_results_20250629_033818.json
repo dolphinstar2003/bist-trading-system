@@ -1,0 +1,39 @@
+{
+  "summary": {
+    "initial_capital": 100000,
+    "final_capital": 91928.03124877143,
+    "total_return": -0.08071968751228574,
+    "annualized_return": -0.11794358000575533,
+    "monthly_return": -0.00040954949950762487,
+    "sharpe_ratio": -0.6194378286598581,
+    "max_drawdown": -0.1276228211877099,
+    "total_days": 169
+  },
+  "trades": {
+    "total_trades": 343,
+    "win_rate": 0.37026239067055394,
+    "avg_win": 1285.0886336122655,
+    "avg_loss": -796.5658056738919,
+    "profit_factor": 0.9529644153559322
+  },
+  "mode_analysis": {
+    "distribution": {
+      "DEFENSIVE": 89,
+      "BALANCED": 80
+    },
+    "performance": {
+      "BALANCED": {
+        "days": 80,
+        "avg_return": -0.004337432148105912,
+        "total_return": -0.29832203804814006,
+        "volatility": 0.016669301488916623
+      },
+      "DEFENSIVE": {
+        "days": 89,
+        "avg_return": 0.0029122193149688554,
+        "total_return": 0.2933363884193956,
+        "volatility": 0.00603150380128335
+      }
+    }
+  }
+}

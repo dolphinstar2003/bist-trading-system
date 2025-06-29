@@ -1,0 +1,12 @@
+{
+  "initial_capital": 100000,
+  "final_capital": 90833.24615534974,
+  "total_return": -0.09166753844650259,
+  "monthly_return": -0.06707380861939213,
+  "total_trades": 11,
+  "win_rate": 0.0,
+  "mode_distribution": {
+    "BALANCED": 41
+  },
+  "test_days": 41
+}
