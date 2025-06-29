@@ -1,0 +1,18 @@
+# Deep Learning Requirements
+torch>=2.0.0
+torchvision>=0.15.0
+tensorflow>=2.13.0  # Optional, for comparison
+opencv-python>=4.8.0
+pillow>=10.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Additional DL libraries
+transformers>=4.30.0  # For transformer models
+pytorch-lightning>=2.0.0  # For easier training
+tensorboard>=2.13.0  # For visualization
+ray[tune]>=2.5.0  # For hyperparameter tuning
+
+# Reinforcement Learning (for future)
+stable-baselines3>=2.0.0
+gymnasium>=0.28.0
