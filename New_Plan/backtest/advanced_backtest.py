@@ -62,7 +62,7 @@ class MLBacktestEngine:
         if not model_path.exists():
             raise FileNotFoundError("Model not found. Please train the model first.")
         
-        checkpoint = torch.load(model_path, map_location='cpu')
+        checkpoint = torch.load(model_path, map_location='cpu', weights_only=False)
         
         # Create model
         model = SimpleMultiTimeframeGRU(
@@ -253,11 +253,17 @@ class MLBacktestEngine:
                 # Calculate confidence based on attention weights
                 confidence = 1.0  # Default
                 if attention_weights is not None:
-                    # Higher attention variance = lower confidence
-                    for tf, weights in attention_weights.items():
-                        if weights is not None:
-                            variance = weights.var().item()
-                            confidence *= (1 - variance)
+                    # Check if attention_weights is a dict or tensor
+                    if isinstance(attention_weights, dict):
+                        # Higher attention variance = lower confidence
+                        for tf, weights in attention_weights.items():
+                            if weights is not None and hasattr(weights, 'var'):
+                                variance = weights.var().item()
+                                confidence *= (1 - variance)
+                    elif hasattr(attention_weights, 'var'):
+                        # If it's a single tensor
+                        variance = attention_weights.var().item()
+                        confidence = 1 - variance
                 
                 return {
                     'probability': probability,
