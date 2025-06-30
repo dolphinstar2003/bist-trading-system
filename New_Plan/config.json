@@ -1,0 +1,144 @@
+{
+  "system": {
+    "name": "Hybrid Trading System",
+    "version": "1.0.0",
+    "mode": "paper",
+    "timezone": "Europe/Istanbul",
+    "market_hours": {
+      "open": "09:10",
+      "close": "18:00"
+    }
+  },
+  
+  "api": {
+    "algolab": {
+      "url": "wss://ws.algolab.com.tr",
+      "username": "",
+      "password": "",
+      "account_id": ""
+    },
+    "finnhub": {
+      "api_key": ""
+    },
+    "alpha_vantage": {
+      "api_key": ""
+    }
+  },
+  
+  "data": {
+    "base_path": "/home/yunus/Belgeler/New_Start",
+    "cache_ttl": 900,
+    "update_interval": 60
+  },
+  
+  "symbols": [
+    "AKBNK", "ARCLK", "ASELS", "BIMAS", "EKGYO", 
+    "EREGL", "FROTO", "GARAN", "GUBRF", "HEKTS",
+    "ISCTR", "KCHOL", "KOZAL", "KRDMD", "PETKM",
+    "PGSUS", "SAHOL", "SASA", "SISE", "TAVHL",
+    "TCELL", "THYAO", "TKFEN", "TOASO", "TTKOM",
+    "TUPRS", "VESTL", "YKBNK", "AEFES", "AGESA"
+  ],
+  
+  "timeframes": {
+    "analysis": ["1h", "4h", "1d"],
+    "primary": "1h",
+    "execution": "1h"
+  },
+  
+  "portfolio": {
+    "initial_capital": 100000,
+    "currency": "TRY",
+    "max_positions": 5,
+    "min_position_value": 5000,
+    "max_position_value": 20000
+  },
+  
+  "risk": {
+    "max_risk_per_trade": 0.01,
+    "max_portfolio_risk": 0.05,
+    "max_daily_loss": 0.03,
+    "max_monthly_drawdown": 0.08,
+    "stop_loss_atr_multiplier": 2.0,
+    "trailing_stop_atr_multiplier": 2.5,
+    "max_correlation": 0.7,
+    "kelly_fraction": 0.25
+  },
+  
+  "signals": {
+    "confidence_threshold": 0.65,
+    "min_profit_target": 0.02,
+    "target_1_rr": 2.0,
+    "target_2_rr": 3.0,
+    "partial_close_pct": 0.5,
+    "max_concurrent_signals": 5
+  },
+  
+  "model": {
+    "type": "gru_multi_timeframe",
+    "input_size": 50,
+    "hidden_size": 50,
+    "num_layers": 1,
+    "sequence_length": 30,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "epochs": 100,
+    "validation_split": 0.2,
+    "early_stopping_patience": 10
+  },
+  
+  "indicators": {
+    "macd": {
+      "fast": 12,
+      "slow": 26,
+      "signal": 9
+    },
+    "rsi": {
+      "period": 14,
+      "overbought": 70,
+      "oversold": 30
+    },
+    "adx": {
+      "period": 14,
+      "strong_trend": 25
+    },
+    "atr": {
+      "period": 14
+    },
+    "bollinger": {
+      "period": 20,
+      "std_dev": 2
+    },
+    "ema": {
+      "fast": 9,
+      "medium": 21,
+      "slow": 50,
+      "very_slow": 200
+    }
+  },
+  
+  "execution": {
+    "order_type": "limit",
+    "slippage_pct": 0.001,
+    "commission_pct": 0.0002,
+    "max_retry": 3,
+    "timeout": 30
+  },
+  
+  "monitoring": {
+    "log_level": "INFO",
+    "save_logs": true,
+    "performance_report_interval": 3600,
+    "alert_channels": ["console", "file"],
+    "metrics_update_interval": 60
+  },
+  
+  "backtest": {
+    "start_date": "2023-01-01",
+    "end_date": "2024-12-31",
+    "initial_capital": 100000,
+    "commission": 0.0002,
+    "slippage": 0.001,
+    "use_cached_data": true
+  }
+}
